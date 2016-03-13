@@ -1,0 +1,29 @@
+enable_chat_server: true
+
+ping_time: 1000
+
+server_period: 7046
+
+accept_server_hook: false
+
+servers_map:
+ example:
+  -password #do not leave this configuration when you are using this plugin#
+ example2:
+  -password2
+
+do_hook: false
+
+auto_hook: true
+
+hook_ip: 127.0.0.1 #warning!this is a bad example.NEVER attempt to hook the server itself#
+
+hook_port: 7046
+
+hook_name: example
+
+hook_password: password
+
+remote_format: "[{server}] <{display_name}> : {message}"
+
+client_format: "[{type}] [{time}] <{name}> : {message}"

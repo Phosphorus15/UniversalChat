@@ -1,0 +1,11 @@
+name: UniversalChat
+version: 1.0
+main: net.steepout.plugin.such.PluginMain
+
+commands:
+    hook:
+        description: hook to target server
+        usage: /hook
+    ckick:
+        description: kick target client (including hook server) by name
+        usage: /ckick username <reason>
